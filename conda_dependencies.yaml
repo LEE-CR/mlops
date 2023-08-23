@@ -1,0 +1,11 @@
+channels:
+- anaconda
+- conda-forge
+dependencies:
+- python=3.9
+- pip:
+  - pandas
+  - azureml-defaults
+  - joblib
+- scikit-learn
+name: trainerajay
